@@ -1,6 +1,7 @@
 {
   "name": "expo-app",
   "version": "1.0.0",
+  "type": "module",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "vite",
@@ -22,8 +23,10 @@
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "typescript": "^5.1.3",
+    "autoprefixer": "^10.4.17",
     "resolve-from": "^5.0.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.1.3",
     "vite": "^5.0.12"
   },
   "private": true
